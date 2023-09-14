@@ -58,6 +58,10 @@ input{
     background-color: rgb(6, 109, 234);
 }
 
+.push{
+    margin: auto;
+}
+
 .clip-button{
     color: white;
     height:25px;

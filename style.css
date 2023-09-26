@@ -7,21 +7,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #f5f5f5;
-    /* overflow: hidden; */
-}
-
-.nav-list{
-    list-style: none;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-
-a{
-    text-decoration: none;
-    color: black;
-    margin: 0 50px;
+    margin: 0 auto;
 }
 
 a:hover{
@@ -29,47 +15,82 @@ a:hover{
     transition: all 0.3s ease;
 }
 
-.main-nav{
-    display: flex;
-    margin: 20px;
+.top-nav{
+    overflow: hidden;   
+}
+
+.topnav a{
+    float: left;
+    text-decoration: none;
+    color: black;
+    margin: 0 100px;
+    cursor: pointer;
+}
+
+.push{
+    float: right;
+}
+
+.bold-nav{
+    font-size: 20px;
+    font-weight:800;
+    letter-spacing: 0.5px;
+}
+
+.active{
+    color: rgb(6, 109, 234);
+}
+
+h1{
+    font-size: 60px;
+    margin: 2px 0 30px 0;
 }
 
 .second-div{
     display: flex;
-    gap: 50px;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    gap: 100px;
+}
+
+.scissors-image{
+    border-radius: 50%;
+    width: 400px;
 }
 
 input{
-    width: 250px;
-    height: 30px;
+    width: 470px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size:13px;
+    padding: 0 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    margin: 13px 0;
 }
-
 
 .sign-up-button{
     color: white;
-    height:25px;
-    border-radius: 3px;
-    width: 90px;
+    height:40px;
+    border-radius: 6px;
+    width: 100px;
     border: 0;
     font-size: 14px;
     background-color: rgb(6, 109, 234);
+    margin-left: 0;
 }
 
-.push{
-    margin: auto;
-}
 
 .clip-button{
     color: white;
-    height:25px;
-    border-radius: 3px;
-    width: 90px;
+    height:40px;
+    border-radius: 5px;
+    width: 130px;
     border: 0;
     margin-top: 15px;
     background-color: rgb(6, 109, 234);
+    font-size: 15px;
 }
 
 button:hover{
@@ -78,15 +99,48 @@ button:hover{
 
 p{
     color: grey;
-    font-weight: lighter;
-    font-size: smaller;
+    font-weight:400;
+    font-size: 14px;
+    margin-bottom: 15px;
 }
 
-.scissors-image{
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+hr{
+    background-color:rgb(98, 97, 97);
+    width: 90%;
+    margin: 0 auto;
+    border-style:groove;
 }
+
+.footer-list{
+    list-style: none;
+    padding: 5px 0;
+}
+
+.footer-paragraph{
+    margin-top: 10px;
+}
+
+footer{
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+.column {
+    float: left;
+    margin: 20px;
+}
+  
+.left, .right, .middle,.last{
+    width: 15%;
+}
+
+li{
+    list-style: none;
+}
+  
+
+
+
 
 
 

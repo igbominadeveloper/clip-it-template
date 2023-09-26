@@ -52,6 +52,7 @@ h1{
     align-items: center;
     height: 100vh;
     gap: 100px;
+    width: 97%;
 }
 
 .scissors-image{
@@ -80,7 +81,6 @@ input{
     background-color: rgb(6, 109, 234);
     margin-left: 0;
 }
-
 
 .clip-button{
     color: white;
@@ -123,6 +123,7 @@ hr{
 footer{
     margin: 0 auto;
     font-size: 13px;
+    width: 90%;
 }
 
 .column {

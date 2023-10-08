@@ -7,38 +7,35 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #f5f5f5;
-    margin: 0 auto;
 }
 
-a:hover{
+.topnav a:hover{
     color: rgb(49, 91, 165);
-    transition: all 0.3s ease;
-}
-
-.top-nav{
-    overflow: hidden;   
-}
-
-.topnav a{
-    float: left;
-    text-decoration: none;
-    color: black;
-    margin: 0 100px;
     cursor: pointer;
 }
 
-.push{
-    float: right;
+.topnav a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin: 0 50px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
-.bold-nav{
-    font-size: 20px;
+.bold{
+    font-size: 25px;
     font-weight:800;
     letter-spacing: 0.5px;
 }
 
-.active{
+.topnav .active{
     color: rgb(6, 109, 234);
+}
+
+
+ul{
+ margin:30px;
 }
 
 h1{
@@ -48,11 +45,11 @@ h1{
 
 .second-div{
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100vh;
-    gap: 100px;
-    width: 97%;
+    gap: 120px;
+    width: 100%;
+    margin-left: 100px;
 }
 
 .scissors-image{
@@ -75,11 +72,10 @@ input{
     color: white;
     height:40px;
     border-radius: 6px;
-    width: 100px;
+    width: 90px;
     border: 0;
     font-size: 14px;
     background-color: rgb(6, 109, 234);
-    margin-left: 0;
 }
 
 .clip-button{
@@ -97,6 +93,18 @@ button:hover{
     cursor: pointer;
 }
 
+.flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.parent-footer{
+    display: flex;
+    gap: 150px;
+    margin-top: 40px;
+}
+
 p{
     color: grey;
     font-weight:400;
@@ -106,7 +114,7 @@ p{
 
 hr{
     background-color:rgb(98, 97, 97);
-    width: 90%;
+    width: 98%;
     margin: 0 auto;
     border-style:groove;
 }
@@ -126,10 +134,6 @@ footer{
     width: 90%;
 }
 
-.column {
-    float: left;
-    margin: 20px;
-}
   
 .left, .right, .middle,.last{
     width: 15%;
